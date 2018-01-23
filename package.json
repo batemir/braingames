@@ -1,10 +1,10 @@
 {
-  "name": "brain-games666",
-  "version": "0.1.0",
+  "name": "brain-games_batemir",
+  "version": "0.2.1",
   "description": "console mini-games",
   "main": "index.js",
   "bin": {
-  "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js"
   },
   "files": [
     "dist"
@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/batemir/project-lvl1-s220/issues"
   },
-  "homepage": "https://github.com/batemir/project-lvl1-s220#readme"
+  "homepage": "https://github.com/batemir/project-lvl1-s220#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.7"
+  }
 }
