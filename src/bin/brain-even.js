@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-import greeting, { evenUneven } from '..';
+import brainEven from '../games/brain-even';
 
-greeting(`Answer "yes" if number even otherwise answer "no".
-`);
-evenUneven();
+brainEven();
