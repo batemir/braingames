@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-const runGame = (textOfTask, times, solver) => {
+const runGame = (textOfTask, times, getTask) => {
   console.log(`Welcome to the Brain Games!
 ${textOfTask}
   `);
@@ -9,7 +9,7 @@ ${textOfTask}
   `);
   let i = 0;
   while (i < times) {
-    const condition = solver();
+    const condition = getTask();
     console.log(`Question: ${condition[0]}`);
     const answer = readlineSync.question('Your answer: ');
     if (answer === String(condition[1])) {

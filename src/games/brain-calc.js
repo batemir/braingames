@@ -1,7 +1,7 @@
 import runGame from '../engine';
 import { getRandomNumber } from '..';
 
-const solver = () => {
+const getTask = () => {
   const first = getRandomNumber(100);
   const second = getRandomNumber(100);
   let str;
@@ -25,5 +25,5 @@ const solver = () => {
   return [str, num];
 };
 const textOfTask = 'What is the result of the expression?';
-const brainCalc = () => runGame(textOfTask, 3, solver);
+const brainCalc = () => runGame(textOfTask, 3, getTask);
 export default brainCalc;
