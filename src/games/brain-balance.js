@@ -46,5 +46,5 @@ const getTask = () => {
 };
 
 const textOfTask = 'Balance the given number.';
-const brainBalance = () => runGame(textOfTask, 3, getTask);
+const brainBalance = () => runGame(textOfTask, getTask);
 export default brainBalance;

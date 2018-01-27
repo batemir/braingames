@@ -21,5 +21,5 @@ const getTask = () => {
   return [question, answer];
 };
 const textOfTask = 'Find the greatest common divisor of given numbers.';
-const brainGcd = () => runGame(textOfTask, 3, getTask);
+const brainGcd = () => runGame(textOfTask, getTask);
 export default brainGcd;

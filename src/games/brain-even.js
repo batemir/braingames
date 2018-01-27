@@ -14,6 +14,6 @@ const getTask = () => {
 };
 const textOfCondition = `Answer "yes" if number even otherwise answer "no".
 `;
-const brainEven = () => runGame(textOfCondition, 3, getTask);
+const brainEven = () => runGame(textOfCondition, getTask);
 
 export default brainEven;

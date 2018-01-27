@@ -25,5 +25,5 @@ const getTask = () => {
   return [str, num];
 };
 const textOfTask = 'What is the result of the expression?';
-const brainCalc = () => runGame(textOfTask, 3, getTask);
+const brainCalc = () => runGame(textOfTask, getTask);
 export default brainCalc;

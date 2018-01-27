@@ -1,6 +1,6 @@
 {
   "name": "brain-games_batemir",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "console mini-games",
   "main": "index.js",
   "bin": {
