@@ -8,7 +8,7 @@ ${textOfTask}
   console.log(`Hello, ${userName}!
   `);
   let i = 0;
-  while (i < 4) {
+  while (i < 3) {
     const condition = getTask();
     console.log(`Question: ${condition[0]}`);
     const answer = readlineSync.question('Your answer: ');
