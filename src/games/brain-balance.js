@@ -40,7 +40,6 @@ const getTask = () => {
   const answerAsStr = String(answer);
   const answerAsArr = answerAsStr.split('');
   answerAsArr.sort((a, b) => a - b);
-  answerAsArr.reverse();
   answer = answerAsArr.join('');
   return [number, answer];
 };
