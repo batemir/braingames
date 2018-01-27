@@ -9,5 +9,5 @@ const greeting = (condition) => {
   `);
 };
 
-export const getRandomNumber = max => Math.floor(Math.random() * max);
+export const getRandomNumber = (max, min = 0) => Math.floor(Math.random() * (max - min)) + min;
 export default greeting;
