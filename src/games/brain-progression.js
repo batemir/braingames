@@ -20,5 +20,5 @@ const getTask = () => {
   return [question, answer];
 };
 const textOfTask = 'What number is missing in this progression?';
-const brainProgression = runGame(textOfTask, getTask);
+const brainProgression = () => runGame(textOfTask, getTask);
 export default brainProgression;
