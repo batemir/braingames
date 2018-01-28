@@ -10,4 +10,8 @@ const greeting = (condition) => {
 };
 
 export const getRandomNumber = (max, min = 0) => Math.floor(Math.random() * (max - min)) + min;
+export const getMissingNumInProgression = (firstInSequence, step, missingPosition) => {
+  const answer = firstInSequence + ((missingPosition) * step);
+  return answer;
+};
 export default greeting;
