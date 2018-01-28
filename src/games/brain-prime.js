@@ -2,7 +2,7 @@ import runGame from '../engine';
 import { getRandomNumber } from '..';
 
 const getTask = () => {
-  const number = getRandomNumber(20);
+  const number = getRandomNumber(1000);
   const getAnswer = (num) => {
     let result = '';
     for (let i = Math.ceil(num / 2); i >= 1; i -= 1) {
