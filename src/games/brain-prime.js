@@ -1,20 +1,14 @@
 import runGame from '../engine';
-import { getRandomNumber } from '..';
+import { getRandomNumber, isPrime } from '..';
 
 const getTask = () => {
-  const number = getRandomNumber(1000);
-  const getAnswer = (num) => {
-    let result = '';
-    for (let i = Math.ceil(num / 2); i >= 1; i -= 1) {
-      if (num % i === 0 || num === 0) {
-        result = 'no';
-        return result;
-      }
-      result = 'yes';
-    }
-    return result;
-  };
-  const answer = getAnswer(number);
+  const number = getRandomNumber(10);
+  let answer = '';
+  if (isPrime(number)) {
+    answer = 'yes';
+  } else {
+    answer = 'no';
+  }
   return [number, answer];
 };
 
