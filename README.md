@@ -9,3 +9,23 @@ npm install -g brain-games_batemir
 ```
 ## Run
 ```
+~ brain-even
+
+Welcome to the Brain Games!
+Answer "yes" if number even otherwise answer "no".
+
+  
+May i have you name? Dana
+Hello, Dana!
+  
+Question: 50
+Your answer: yes
+Correct!
+Question: 59
+Your answer: no
+Correct!
+Question: 18
+Your answer: yes
+Correct!
+Congratulations, Dana!
+```
