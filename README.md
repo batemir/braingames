@@ -29,3 +29,11 @@ Your answer: yes
 Correct!
 Congratulations, Dana!
 ```
+## Avialable games:
+
+* brain-even
+* brain-calc
+* brain-gcd
+* brain-balance
+* brain-progression
+* brain-prime
